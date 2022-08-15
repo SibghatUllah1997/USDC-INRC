@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap");
+
+:root {
+  --main-color: #343a40;
+  --secondery-color: #666666;
+  --text-color: #e9ecef;
+  --btn-color: #ff8800;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-content: center;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+
+.doller {
+  justify-content: flex-start;
+  display: inline-block;
+}
+
+.container {
+  width: 20rem;
+  border: 2px solid white;
+}
+
+.mainBtn {
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 4rem;
+  display: inline-block;
+  font-weight: 100;
+  margin: auto;
+  /* margin: 0 0 0 20%; */
+}
+
+.max {
+  color: var(--text-color);
+  background-color: var(--secondery-color);
+  padding: 7px 15px;
+  border: none;
+  font-weight: 800;
+}
+
+/*  */
+.main-section {
+  margin-top: 2rem;
+}
+
+.another-section {
+  margin: 0 10px;
+}
+
+.section {
+  background-color: var(--secondery-color);
+  padding: 1rem;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1px;
+}
+
+.lower-section {
+  margin-top: 3rem;
+  /* border: 1px solid red; */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #ff7b00; */
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.row-right {
+  justify-content: flex-end;
+}
+
+.display-heading {
+  display: flex;
+  align-items: center;
+}
+
+.doller-sign {
+  /* border: 1px solid red; */
+  margin-left: 3px;
+}
+
+.heading {
+  flex-grow: 90;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.mint-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: var(--btn-color);
+  border: none;
+}
+
+.btn-div {
+  padding: 1rem 0.3rem;
+}
