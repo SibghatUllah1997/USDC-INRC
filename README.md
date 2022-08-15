@@ -26,3 +26,6 @@ firt of all `npm i` or `yarn`
 then  `npm run start` or `yarn run start`
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Now perform the mentioned instruction.
+
+### Deploy Smart Contract
+Fill the env.json file and run commant `truffle migrate --network development`
